@@ -1,0 +1,163 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+}
+
+form button {
+    height: 3rem;
+    background-color: black;
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+} */
+
+
+
+
+
+/* 
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1E1E1E;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #252525;
+  
+}
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+
+} */
+
+
+
+
+ /* Overall Background & Font Styling */
+ body {
+    background-color: #1E1E1E; /* Dark Gray */
+    font-family: Arial, sans-serif;
+    color: #FFFFFF; /* Text: White */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  /* Card Container Styling */
+  .container {
+    background-color: #252525; /* Card Background: Black */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  /* Input & Dropdown Styling */
+  input, select {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #444444; /* Dropdown & Input Borders: Gray */
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+  }
+  /* Button Styling */
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #32CD32; /* Buttons: Neon Green */
+    color: #000000; /* Button Text: Black */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  /* Button Hover Effects */
+  button:hover {
+    background-color: #66FF66; /* Hover Effects: Lime Green */
+  }
+  /* Headings Styling */
+  h2, h3 {
+    margin: 10px;
+  }
